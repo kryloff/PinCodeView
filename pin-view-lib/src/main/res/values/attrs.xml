@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinCodeView">
+        <attr name="dot_radius" format="float" />
+        <attr name="pin_length" format="integer" />
+        <attr name="dot_color" format="color" />
+        <attr name="pin_type" format="enum">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+            <enum name="all" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
